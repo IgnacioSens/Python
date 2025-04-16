@@ -63,3 +63,36 @@ for _ in range(4):
     for num in range(1,11):
         print('\U0001F602 '* num)
 '''
+'''
+# forma 1
+for num in range(11):
+    print(num)
+
+# forma 2
+for num in range(5, 11):
+    print(num)
+
+# forma 3
+for num in range(5, 20, 2):
+    print(num)
+
+#forma 4
+for num in range(50, 0, -2):
+    print(num)
+
+#forma 5
+lista2 = list(range(112))
+print(lista2)
+
+# Forma com break
+for numero in range(1, 11):
+    if numero == 6:
+        break
+    else:
+        print(numero)
+print('Saiu do loop')
+
+
+'''
+
+
